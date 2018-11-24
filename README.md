@@ -6,14 +6,14 @@ To build the executable jars
 
 ## To start the containerized apps
 1. go to vehicle-monitor-system
-mvn clean install spring-boot:repackage
+- mvn clean install spring-boot:repackage
 
 2. go to frontend
-mvn clean install
-mvn run build
+- mvn clean install
+- mvn run build
 
 3. go back to the root folder:
-docker-compose up
+- docker-compose up
 
 
 ## Other commands
